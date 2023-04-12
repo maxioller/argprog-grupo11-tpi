@@ -18,7 +18,7 @@ padding: 0;
 
 /* Menu navegación */
 .cabecera{
-    background-color: red;
+    background-color: #93A603 ;
 }
 .logo-nav{
     max-height: 80px;
@@ -32,54 +32,119 @@ padding: 0;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    border-bottom: solid 10px burlywood;
-    border-top: solid 10px burlywood;
+    border-bottom: solid 10px #f2cd5c;
+    border-top: solid 10px #f2cd5c;
 }
 .logo-banner-principal{
     max-height: 400px;
-    background-color: rgba(245, 245, 220, 0.52);
-    border: solid rgba(245, 245, 220, 0.776) 1px;
+    background-color: #f2dabd90;
+    border: solid #f2cd5c 2px;
     border-radius: 50%;
+    box-shadow: 10 10 10;
 }
 /* Carrusel del imagenes */
 
+.carrusel{
+    background-color: #F2DABD;
+    padding: 10px;
+}
 .carrusel-imagenes{
-   padding: 15px;
-
    max-width: 60%;
-   padding: 30px;
+   padding: 10px;
+   border:solid 3px #A68C5D;
+}
+
+/* Banner Frase */
+.fondo-frase{
+    background-color: #A68C5D;
+}
+.banner-frase{
+    min-height: 450px;
+}
+.frase{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+
 }
 /* Sección de servicios */
 .seccion-servicio{
-
+    background-color: #F2DABD;
 }
 
 .cabaña-imagen {
-    background-color: aqua;
+    background-color: #F2DABD;
     padding: 10px;
     width: 500px;
     overflow: hidden;
   }
 .servicio{
-    background-color: blanchedalmond;
+    background-color: #F2DABD;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
     text-align: center;
-    font-size: 40px;
 }
-/* Banner Frase */
-.fondo-frase{
-    background-color: blanchedalmond;
+.servicio, p{
+    font-size: 25px;
+    padding: 15px;
 }
-.banner-frase{
-    min-height: 400px;
+.servicio, h2{
+    font-size: 45px;
 }
-.frase{
-    font-size: 60px;
+.boton-servicio,
+.boton-servicios:hover{
+    width: 300px;
+    background-color: #D9042B;
+    border: #D9042B;
 }
 
+/* Footer */
+.botones-redes{
+    justify-content: space-around;
+  }
+  .botones-redes a{
+    text-decoration: none;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #D9042B;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+  footer{
+    background-color: #93A603;
+  }
+  .ancla-footer{
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;      
+  }
+
+  .copyright{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 767.98px){
+    .botones-redes{
+      display: flex;
+      justify-content: center;
+    }
+    .botones-redes a{
+      margin: 10px;
+    }
+    .ancla-footer{
+      display: flex;
+      justify-content: center;
+    }
+  } 
 
 @media (min-width: 576px) and (max-whidth: 992px){
     .banner-frase{
@@ -87,7 +152,7 @@ padding: 0;
         align-content: center;
     }
     .frase{
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
@@ -114,11 +179,9 @@ padding: 0;
         flex-direction: column;
         padding: 10px;
     }
-    .servicio{
-        font-size: 15px;
-    }
+   
     .cabaña-imagen{
         max-height: 250px;
-        max-width: 250px;
+        max-width: 250px; 
     }
 }
