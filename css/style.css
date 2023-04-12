@@ -1,0 +1,124 @@
+/*Reset*/
+*{
+margin: 0;
+padding: 0;
+}
+ 
+/*Etiquetas de control*/
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+
+/* Menu navegación */
+.cabecera{
+    background-color: red;
+}
+.logo-nav{
+    max-height: 80px;
+}
+
+/* Banner principal */
+.banner-principal{
+    min-height: 1000px;
+    background-image: url(../assets/images/Cabaña\ central.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-bottom: solid 10px burlywood;
+    border-top: solid 10px burlywood;
+}
+.logo-banner-principal{
+    max-height: 400px;
+    background-color: rgba(245, 245, 220, 0.52);
+    border: solid rgba(245, 245, 220, 0.776) 1px;
+    border-radius: 50%;
+}
+/* Carrusel del imagenes */
+
+.carrusel-imagenes{
+   padding: 15px;
+
+   max-width: 60%;
+   padding: 30px;
+}
+/* Sección de servicios */
+.seccion-servicio{
+
+}
+
+.cabaña-imagen {
+    background-color: aqua;
+    padding: 10px;
+    width: 500px;
+    overflow: hidden;
+  }
+.servicio{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+/* Banner Frase */
+.fondo-frase{
+    background-color: blanchedalmond;
+}
+.banner-frase{
+    min-height: 400px;
+}
+.frase{
+    font-size: 60px;
+}
+
+
+@media (min-width: 576px) and (max-whidth: 992px){
+    .banner-frase{
+        max-height: 150px;
+        align-content: center;
+    }
+    .frase{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .logo-nav{
+        max-height: 50px;
+    }
+    .banner-principal{
+        min-height: 400px;
+    }
+    .carrusel-imagenes{
+        display: flex;
+        max-width:100%;
+    }
+    .banner-frase{
+        min-height: 150px;
+        align-content: center;
+    }
+    .frase{
+        font-size: 15px;
+    }
+    .seccion-servicio{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .servicio{
+        font-size: 15px;
+    }
+    .cabaña-imagen{
+        max-height: 250px;
+        max-width: 250px;
+    }
+}
