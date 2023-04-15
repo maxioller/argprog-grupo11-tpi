@@ -88,7 +88,7 @@
     <div class="container-fluid d-flex seccion-servicio justify-content-center">
       <div class="row">
         <div class=" Seccion-servicio col-lg-6 d-flex justify-content-center align-items-center">
-          <img class="cabaña-imagen" src="./assets/images/Cabaña.jpg" alt="">
+          <img class="cabaña-imagen my-3" src="./assets/images/Cabaña.jpg" alt="">
         </div>
         <div class="servicio col-lg-6">
           <h2>Cabañas</h2>
@@ -99,23 +99,28 @@
         </div>
       </div>
     </div>
+    <!-- mapa y clima -->
+    <div class="container d-flex flex-column green">
+      <div class="col-md-6">
+          <div class="search-form">
+            <form id="search-form">
+              <div class="searchbox">
+                <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="searchbox" />
+              </div>
+            </form>
+          </div>
+          <div class="weather-card" id="card">
+            <div class="city" id="city">El Bolson, AR</div>
+            <div class="temperature">
+              <img src="images/temp-mid.png" class="temp-img" id="temp-img" />
+              <div class="temp" id="temp">14°c</div>
+            </div>
+            <div class="weather" id="weather">Soleado</div>
+            <div class="range" id="range">12°c / 18°c</div>
+          </div>
+      </div>
+    </div>  
 
-    <!-- MAPA A AGREGAR -->
-    </div>
-    <div class="contenedor-clima d-flex justify-content-start align-items-center" style="height: 300px; background-color: azure;">
-      <form action="" id="search-form">
-        <div class="searchbox">
-          <input type="text" autocomplete="off" placeholder="Ingrese la ciudad: " class="search" id="searchbox">
-        </div>
-      </form>
-    </div>
-    <div class="whater-card">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-
-    </div>    
   </main>
   <footer class="bg py-3">
       <div class="container">
