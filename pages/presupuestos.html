@@ -41,7 +41,102 @@
       </div>
     </nav>
   </div>
-    <main></main>
-    <footer></footer>
+  <main>
+    <div class="container form-presupuesto mt-4">
+      <div class="card">
+        <div class="container mt-4 presupuestos">
+          <div>  
+            <h1 class="col-6 offset-3 titulo-principal text-center">Presupuestos</h1>
+          </div>
+        </div>
+        <form class="my-4">
+          <div>
+              <div class="col-md-8 offset-2">
+                <h2 class="">Datos personales</h2>
+              </div>
+            <div class="row">
+              <div class="col-md-4 offset-md-2">
+                <label for="apellido">Apellido:</label>
+                <input type="text" class="form-control" id="apellido" name="apellido" required>
+              </div>
+              <div class="col-md-4">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 offset-md-2">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="col-md-4">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" class="form-control" id="telefono" name="telefono" required>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="col-md-8 offset-md-2">
+              <h2>Servicio a presupuestar</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-4 offset-md-2">
+                <label for="servicio">Servicio:</label>
+                <select class="form-control" id="servicio" name="servicio" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="servicio1">Servicio 1</option>
+                  <option value="servicio2">Servicio 2</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="fechaIngreso">Fecha de ingreso:</label>
+                <input type="date" class="form-control" id="fechaIngreso" name="fechaIngreso" required>
+              </div>
+              <div class="col-md-2">
+                <label for="fechaPartida">Fecha de partida:</label>
+                <input type="date" class="form-control" id="fechaPartida" name="fechaPartida" required>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="col-md-8 offset-md-2">
+              <h2>Pago</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-4 offset-md-2">
+                <label for="medioPago">Medio de pago:</label>
+                <select class="form-control" id="medioPago" name="medioPago" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="tarjetaCredito">Tarjeta de crédito</option>
+                  <option value="transferencia">Transferencia bancaria</option>
+                  <option value="efectivo">Efectivo</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="cuotas">Cuotas:</label>
+                <select class="form-control" id="cuotas" name="cuotas">
+                  <option value="">Seleccione una opción</option>
+                  <option value="1">1 cuota</option>
+                  <option value="2">2 cuotas</option>
+                  <option value="3">3 cuotas</option>
+                </select>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-md-8 offset-md-2 my-4">
+                <label for="informacion_adicional">Información Adicional:</label>
+                <textarea id="informacion_adicional" class="form-control" rows="4" placeholder="Escriba aquí su información adicional"></textarea>
+              </div>
+            </div>
+              <div class="col-sm-12 col-md-8 offset-md-2 text-end">
+                <button type="submit" class="btn btn-primary">Presupuestar</button>
+              </div>
+          </div>
+        </form>  
+      </div>
+    </div>     
+  </main>
+  <footer></footer>
+
 </body>
 </html>
