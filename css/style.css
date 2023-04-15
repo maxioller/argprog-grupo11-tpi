@@ -202,6 +202,13 @@ body{
         margin-top: 30px;
       }
 }
+/* Nosotros */
+.contenedor-nosotros{
+    flex-direction: column;
+}
+.titulo-nosotros{
+
+}
 
 /* Contacto */
 .titulo-contacto{
@@ -227,4 +234,17 @@ body{
     border-radius: 30px;
     box-shadow: 5px 5px 5px black;
   }
+  .searchbox{
+    padding: 10px 20px;
+    background-color: #A68C5D;
+    max-width: 480px;
+    margin: 0px auto;
+  }
+  .search{
+    width: 100%;
+    background-color: #e1ced2;
+    border: none;
+    font-size: 1rem;
+  }
+
   
