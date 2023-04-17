@@ -320,3 +320,10 @@ body{
     display: none;
     max-width: 100%;
 }
+.element.style {
+  min-height: 1px;
+}
+
+.cabañah5 {
+  text-align: center;
+}
