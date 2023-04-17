@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/f43bb63e3f.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
   <div class="cabecera">
@@ -94,13 +95,14 @@
           <h2>Cabañas</h2>
           <p>Actualmente se encuentran disponibles para alquilar 3 cabañas para 4 pers. y 1 cabaña para 6 pers. <br>Para mas información dirigirse a la sección de servicio</p>
           <div>
-            <button class="btn btn-primary boton-servicio">servicio</button>
+            <button class="btn btn-primary boton-servicio">Servicio</button>
           </div>
         </div>
       </div>
     </div>
     <!-- mapa y clima -->
     <div class="container d-flex flex-column green">
+      <div class="row">
       <div class="col-md-6">
           <div class="search-form">
             <form id="search-form">
@@ -109,7 +111,7 @@
               </div>
             </form>
           </div>
-          <div class="weather-card" id="card">
+          <div class="img-contacto weather-card" id="card">
             <div class="city" id="city">El Bolson, AR</div>
             <div class="temperature">
               <img src="images/temp-mid.png" class="temp-img" id="temp-img" />
@@ -120,8 +122,10 @@
           </div>
       </div>
       <div class="col-md-6">
-        <!-- ACA IRIA EL MAPA -->
+        <h4 class="mt-3 text-white">Nos encontramos en:</h4>
+        <iframe class="img-contacto my-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d881.999062082812!2d-71.54026004851085!3d-41.9642208567978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961bbfbdbf798ccf%3A0x14ddbfdbdc6e4f5f!2sAuquin!5e0!3m2!1ses-419!2sar!4v1681644603003!5m2!1ses-419!2sar" width="600" height="450" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+    </div>
     </div>  
 
   </main>
@@ -142,7 +146,7 @@
         </div>
         <div class="row">
           <div class="col-12 mt-1">
-            <p class="text-center copyright mb-0">&copy; 2020 Todos los derechos reservados - anima-t</p>
+            <p class="text-center copyright mb-0">&copy; 2023 Todos los derechos reservados - anima-t</p>
           </div>
         </div>
       </div>

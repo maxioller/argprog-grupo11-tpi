@@ -107,7 +107,7 @@ body{
 .boton-servicio,
 .boton-servicios:hover{
     min-width: 200px;
-    background-color: #D9042B;
+    background-color: #D9042B ;
     border: #D9042B;
 }
 
@@ -310,3 +310,13 @@ body{
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
+  .weather-card {
+    margin: 20px 20px;
+    background: #f2dabd;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 18px;
+    display: none;
+    max-width: 100%;
+}
