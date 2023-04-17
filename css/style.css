@@ -2,9 +2,13 @@
 *{
 margin: 0;
 padding: 0;
+font-family: 'Cabin', sans-serif;
 }
  
 /*Etiquetas de control*/
+html{
+  font-family:'Cabin', sans-serif ;
+}
 
 .blue{
     background-color: blue;
@@ -235,6 +239,12 @@ body{
     box-shadow: 5px 5px 5px black;
   }
 
+  .contenedor-mapa-api{
+    background-color: #cb9d65;
+    border-bottom: #dcae5a solid 10px;
+    border-top: #dcae5a solid 10px;
+  }
+
 
   /* ----------------------- */
   :root {
@@ -326,4 +336,11 @@ body{
 
 .cabañah5 {
   text-align: center;
+}
+
+.tarjeta-contacto{
+  padding: 30px;
+  background-color:#cb9d65;
+  border-top: #93A603 solid 10px;
+  color: white;
 }
