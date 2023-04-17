@@ -206,9 +206,9 @@ body{
 .contenedor-nosotros{
     flex-direction: column;
 }
-.titulo-nosotros{
+/* .titulo-nosotros{
 
-}
+} */
 
 /* Contacto */
 .titulo-contacto{
